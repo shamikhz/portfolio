@@ -1,0 +1,6 @@
+[build]
+  # Tell Netlify that the base directory to publish is the root
+  publish = "."
+  
+  # Tell Netlify there is no build command to run (since it's a static site)
+  command = ""
