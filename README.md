@@ -28,14 +28,3 @@ Because this project is built with Vanilla HTML, CSS, and JS, running it is incr
    cd portfolio
    ```
 3. Open `index.html` in your favorite web browser, or use an extension like VSCode Live Server.
-
-## 📬 Contact Me
-
-Feel free to reach out for collaborations or just a friendly hello!
-
-- **Phone**: +91 9336471346
-- **Email**: shamikhzafar0@gmail.com
-- **LinkedIn**: [Shamikh Zafar](https://linkedin.com) *(Update with your actual link)*
-
----
-*Designed and built by Shamikh Zafar.*
