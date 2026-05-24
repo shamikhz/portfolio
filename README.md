@@ -23,7 +23,7 @@ Welcome to the repository for my personal web developer portfolio. I am a passio
 - **Personality Evaluator**: An advanced psychological assessment tool providing comprehensive personality profiling, interactive questionnaire flows, real-time analytics, and visual radar chart reports. ([View Live](https://personality-evaluator.vercel.app))
 - **FieldForce CRM (Admin Portal)**: An enterprise administrative platform featuring live sales executive tracking maps, live KPI charts, client records, and role-based permissions. ([View Live](https://crm-dmin.netlify.app))
 - **FieldForce CRM (Sales Executive)**: A mobile-first sales application with offline check-ins, client visit forms, real-time sync, and location verification. ([View Live](https://crm-sale.netlify.app))
-- **Cryptonal**: A premium real-time cryptocurrency dashboard utilizing Binance API data feeds and technical indicators. ([View Live](https://cryptonal.netlify.app))
+- **Cryptonal**: A premium real-time cryptocurrency dashboard utilizing Binance API data feeds and technical indicators. ([View Live](https://shamikhz.github.io/signal/))
 - **Major BCA Project (Tour and Travel)**: A full travel agency administration and customer portal. ([View Live](https://shamikhz.github.io/Major-project/))
 
 ## 💻 Running Locally
