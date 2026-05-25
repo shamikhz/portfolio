@@ -18,11 +18,14 @@
     <meta property="og:description" content="AI MERN Stack Web Developer Portfolio">
     <meta property="og:type" content="website">
 
+    <link rel="preload" href="index.css" as="style">
+    <link rel="preload" href="kindpng_41514.png" as="image" fetchpriority="high">
     <link rel="stylesheet" href="index.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap"
         rel="stylesheet">
@@ -32,25 +35,6 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <script>
-        function toggleMenu() {
-            var menu = document.getElementById('skills-container');
-            // If currently flex and visible, hide it
-            if (menu.style.display !== 'none' && menu.classList.contains('show')) {
-                menu.classList.remove('show');
-                setTimeout(() => {
-                    menu.style.display = 'none';
-                }, 300); // Matches CSS transition duration
-            } else {
-                // Otherwise show it
-                menu.style.display = 'flex';
-                // Add a small delay to allow display to apply before opacity transition
-                setTimeout(() => {
-                    menu.classList.add('show');
-                }, 10);
-            }
-        }
-    </script>
 </head>
 
 <body>
@@ -125,7 +109,7 @@
 
             <div class="hero-image-wrapper reveal-on-scroll">
                 <div class="image-glow"></div>
-                <img src="kindpng_41514.png" alt="Shamikh Zafar - Profile illustration" class="hero-image">
+                <img src="kindpng_41514.png" alt="Shamikh Zafar - Profile illustration" class="hero-image" fetchpriority="high">
             </div>
         </section>
 
@@ -465,6 +449,25 @@
             const revealElements = document.querySelectorAll('.reveal-on-scroll');
             revealElements.forEach(el => observer.observe(el));
         });
+    </script>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('skills-container');
+            // If currently flex and visible, hide it
+            if (menu.style.display !== 'none' && menu.classList.contains('show')) {
+                menu.classList.remove('show');
+                setTimeout(() => {
+                    menu.style.display = 'none';
+                }, 300); // Matches CSS transition duration
+            } else {
+                // Otherwise show it
+                menu.style.display = 'flex';
+                // Add a small delay to allow display to apply before opacity transition
+                setTimeout(() => {
+                    menu.classList.add('show');
+                }, 10);
+            }
+        }
     </script>
 </body>
 
